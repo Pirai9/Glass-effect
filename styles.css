@@ -1,0 +1,133 @@
+/* Comman Css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* background: url(./5172658.jpg); */
+    background: linear-gradient(to left,#27eef5,rgb(47, 46, 51));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 650px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(255,255,255,0.06);
+    box-shadow: 0 8px 32px 0 , rgb(31,38,135,.37);
+    border-radius: 30px;
+    border-left:1px solid rgb(255,255,255,0.3);
+    border-bottom:1px solid rgb(255,255,255,0.3);
+
+}
+
+form::after{
+    content: '';
+    position: absolute;
+    top: 62%;
+    left: 57%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #424142;
+    z-index: -3;
+    opacity: .7;
+    
+}
+
+form::before{
+    content: '';
+    position: absolute;
+    top: 12%;
+    right: 57%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #424142;
+    opacity: .7;
+    z-index: 1;
+    
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.2);
+    letter-spacing: 3px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    color: white;
+}
+
+label{
+    font-size: 30px;
+    margin-left: 60px;
+    color: white;
+    opacity: .8;
+}
+
+input{
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    opacity: .7;
+    margin:auto;
+    font-size: 20px;
+    color: white;
+}
+
+ button{
+    width: 200px;
+    padding: 20px;
+    font-weight: bold;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color:rgb(255,255,255,0.22);
+    box-shadow: 0 8px 32px 0 , rgba(36, 37, 51, 0.7);
+
+ }
+button:hover{
+    width: 200px;
+    padding: 20px;
+    margin: auto;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color:rgb(255,255,255);
+    transition: 1s;
+    box-shadow: 0 8px 32px 0 , rgba(36, 37, 51, 0.7);
+}
+ a{
+    text-align: right;
+    margin-right: 100px;
+    font-size: 20px;
+    color: white;
+    opacity: .8;
+    margin-bottom: 20px;
+ }
+ #signpage{
+    margin:auto;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+    
+ }
